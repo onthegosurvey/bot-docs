@@ -6,15 +6,14 @@
 - [2 - Lógica Contém Inteligente](#2-lógica-contém-inteligente)</a><br/>
 - [3 - Lógica Valor de Parâmetro](#3-lógica-valor-de-parâmetro)</a><br/>
 - [4 - Lógica Peso](#4-lógica-peso)</a><br/>
+- [5 - Lógica Contém Opções Selecionadas nos Itens](#5-lógica-contém-opções-selecionadas-nos-itens)
 - [Painéis](#painéis)<br/>
 ---
 <a id="objetivo"></a>
 ## Objetivo
-Esse documento tem como objetivo descrever as possíveis lógicas em um bot On The Go
+Esse documento tem como objetivo descrever as possíveis lógicas em uma pesquisa On The Go
 ## Lógicas
-
 ---
-
 ### 1-Lógica Contém
 A <b>Lógica Contém</b> verifica se na P25 (Pergunta 25), o item 1 foi selecionado.<br/> 
 Caso seja verdade, o usuário é direcionado para o índice 35, caso contrário o usuário será direcionado para o índice 38.<br/>
@@ -67,6 +66,23 @@ A <b>Lógica Peso</b> verifica se o valor somado dos itens selecionados na P2 (P
 Caso seja verdade, o usuário é direcionado para o índice 5, caso contrário o usuário será direcionado para o índice 6.<br/>
 
 ![alt text](https://github.com/onthegosurvey/bot-docs/blob/main/images/img5.png?raw=true)
+
+Tipos de perguntas compatívies: <b>Única e Múltipla Escolha</b>
+
+No banco de dados esta lógica é escrita da seguinte forma:
+
+- Exatamente: ```/logic/ if sum(@95n1@) == 5```
+- Maior que ```/logic/ if sum(@95n1@) > 5```
+- Menor que ```/logic/ if sum(@95n1@) < 5```
+- Maior ou igual ```/logic/ if sum(@95n1@) >= 5```
+- Menor ou igual ```/logic/ if sum(@95n1@) <= 5```
+
+### 5-Lógica Contém Opções Selecionadas nos Itens
+
+A <b>Lógica Contém Opções Selecionadas nos Itens</b> verifica se o valor somado dos itens selecionados na P2 (Pergunta 2) é Exatamente, Maior que, Menor que, Maior ou igual, Menor ou igual ao valor digitado no campo a frente, nesta imagem abaixo por exemplo o valor 5.<br/>
+Caso seja verdade, o usuário é direcionado para o índice 5, caso contrário o usuário será direcionado para o índice 6.<br/>
+
+![alt text](https://github.com/onthegosurvey/bot-docs/blob/main/images/img6.png?raw=true)
 
 Tipos de perguntas compatívies: <b>Única e Múltipla Escolha</b>
 
