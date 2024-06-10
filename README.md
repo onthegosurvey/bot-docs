@@ -79,20 +79,21 @@ No banco de dados esta lógica é escrita da seguinte forma:
 
 ### 5-Lógica Contém Opções Selecionadas nos Itens
 
-A <b>Lógica Contém Opções Selecionadas nos Itens</b> verifica se o valor somado dos itens selecionados na P2 (Pergunta 2) é Exatamente, Maior que, Menor que, Maior ou igual, Menor ou igual ao valor digitado no campo a frente, nesta imagem abaixo por exemplo o valor 5.<br/>
-Caso seja verdade, o usuário é direcionado para o índice 5, caso contrário o usuário será direcionado para o índice 6.<br/>
+A <b>Lógica Contém Opções Selecionadas nos Itens</b> verifica se no item 3 possui pelo menos uma das opções (op4 ou op5) selecionada.<br/>
 
 ![alt text](https://github.com/onthegosurvey/bot-docs/blob/main/images/img6.png?raw=true)
 
-Tipos de perguntas compatívies: <b>Única e Múltipla Escolha</b>
+Essa lógica também aceita mais de um item conforme imagem abaixo:
+
+![alt text](https://github.com/onthegosurvey/bot-docs/blob/main/images/img7.png?raw=true)
+
+Tipo de pergunta compatível: <b>Matriz</b>
 
 No banco de dados esta lógica é escrita da seguinte forma:
 
-- Exatamente: ```/logic/ if sum(@95n1@) == 5```
-- Maior que ```/logic/ if sum(@95n1@) > 5```
-- Menor que ```/logic/ if sum(@95n1@) < 5```
-- Maior ou igual ```/logic/ if sum(@95n1@) >= 5```
-- Menor ou igual ```/logic/ if sum(@95n1@) <= 5```
+```/code/ if @aio1@it2@ containsInMatriz [op1,op2,op3,op4,op5,op6]```
+
+Onde <b>aio1</b> refere-se ao uid da pergunta e <b>it2</b> refere-se ao item.
 
 ## Painéis
 A plataforma On The Go pode se conectar a diversos paineis diferentes, mas cada um deles possui algumas especificidades. 
