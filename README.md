@@ -93,7 +93,21 @@ No banco de dados esta lógica é escrita da seguinte forma:
 
 ```/code/ if @aio1@it2@ containsInMatriz [op1,op2,op3,op4,op5,op6]```
 
-Onde <b>aio1</b> refere-se ao uid da pergunta e <b>it2</b> refere-se ao item.
+Onde <b>aio1</b> refere-se ao uid da pergunta e <b>it2</b> refere-se ao(s) item(ns).
+
+### 6-Lógica Somar Pesos
+
+A <b>Lógica Somar Pesos</b> soma os pesos das opções dos itens selecionados em uma matriz<br/>
+
+![alt text](https://github.com/onthegosurvey/bot-docs/blob/main/images/img8.png?raw=true)
+
+Tipo de pergunta compatível: <b>Matriz</b>
+
+No banco de dados esta lógica é escrita da seguinte forma:
+
+```/code/ if sumMatrizWeight(8vn1) >= 90```
+
+Onde <b>8vn1</b> refere-se ao uid da matriz.
 
 ## Painéis
 A plataforma On The Go pode se conectar a diversos paineis diferentes, mas cada um deles possui algumas especificidades. 
