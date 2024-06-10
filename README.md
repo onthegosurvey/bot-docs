@@ -9,6 +9,7 @@
 - [5 - Lógica Contém Opções Selecionadas nos Itens](#5-lógica-contém-opções-selecionadas-nos-itens)
 - [6 - Lógica Somar Pesos](#6-lógica-somar-pesos)
 - [7 - Lógica Top X Contém Texto](#7-lógica-top-x-contém-texto)
+- [Lógicas nas Opções](#lógicas-nas-opções)<br/>
 - [Painéis](#painéis)<br/>
 ---
 <a id="objetivo"></a>
@@ -134,6 +135,12 @@ No banco de dados esta lógica é escrita da seguinte forma:
 ```/code/ if top2contains @m9h3@Carrefour Express@```
 
 Onde 2 é a quantidade de itens que a lógica irá procurar o texto e <b>m9h3</b> refere-se ao uid da múltipla escolha.<br/><br/>
+
+---
+
+## Lógicas nas Opções
+Em alguns casos é necessário apresentar ou esconder itens de acordo com o que foi selecionado em uma matriz anterior.
+
 
 ---
 
