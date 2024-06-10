@@ -110,6 +110,20 @@ No banco de dados esta lógica é escrita da seguinte forma:
 
 Onde <b>8vn1</b> refere-se ao uid da matriz.
 
+### 7-Lógica Top X Contém
+
+A <b>Lógica Top X Contém</b> verifica se entre as Top (3) contém o texto a seguir.<br/>
+
+![alt text](https://github.com/onthegosurvey/bot-docs/blob/main/images/img9.png?raw=true)
+
+Tipo de pergunta compatível: <b>Matriz</b>
+
+No banco de dados esta lógica é escrita da seguinte forma:
+
+```/code/ if sumMatrizWeight(8vn1) >= 90```
+
+Onde <b>8vn1</b> refere-se ao uid da matriz.
+
 ## Painéis
 A plataforma On The Go pode se conectar a diversos paineis diferentes, mas cada um deles possui algumas especificidades. 
 Observações importantes para configurar os links de painéis:<br/>
