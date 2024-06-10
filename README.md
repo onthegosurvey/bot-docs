@@ -15,7 +15,7 @@
 ## Objetivo
 Esse documento tem como objetivo descrever as possíveis lógicas em uma pesquisa On The Go.<br/><br/>
 ## Lógicas
----
+
 ### 1-Lógica Contém
 A <b>Lógica Contém</b> verifica se na P25 (Pergunta 25), o item 1 foi selecionado.<br/> 
 Caso seja verdade, o usuário é direcionado para o índice 35, caso contrário o usuário será direcionado para o índice 38.<br/>
@@ -30,7 +30,7 @@ Onde <b>d666</b> refere-se ao uid da pergunta e <b>op1</b> refere-se a opção p
 
 Tipos de perguntas compatívies: <b>Única e Múltipla Escolha</b>.<br/><br/>
 
----
+
 
 ### 2-Lógica Contém Inteligente
 
@@ -47,7 +47,7 @@ Onde <b>95n1</b> refere-se ao uid da pergunta e [MarcaX] refere-se a opção par
 
 Tipos de perguntas compatívies: <b>Única e Múltipla Escolha</b>.<br/><br/>
 
----
+
 
 ### 3-Lógica Valor de Parâmetro
 
@@ -62,7 +62,7 @@ No banco de dados esta lógica é escrita da seguinte forma:
 
 Compatível com qualquer parâmetro e valor.<br/><br/>
 
----
+
 
 ### 4-Lógica Peso
 
@@ -81,7 +81,7 @@ No banco de dados esta lógica é escrita da seguinte forma:
 - Maior ou igual ```/logic/ if sum(@95n1@) >= 5```
 - Menor ou igual ```/logic/ if sum(@95n1@) <= 5```
   <br/><br/>
----
+
 
 ### 5-Lógica Contém Opções Selecionadas nos Itens
 
@@ -101,7 +101,7 @@ No banco de dados esta lógica é escrita da seguinte forma:
 
 Onde <b>aio1</b> refere-se ao uid da pergunta e <b>it2</b> refere-se ao(s) item(ns).<br/><br/>
 
----
+
 
 ### 6-Lógica Somar Pesos
 
@@ -117,7 +117,7 @@ No banco de dados esta lógica é escrita da seguinte forma:
 
 Onde <b>8vn1</b> refere-se ao uid da matriz.<br/><br/>
 
----
+
 
 ### 7-Lógica Top X Contém Texto
 
