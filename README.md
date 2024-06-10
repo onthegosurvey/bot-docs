@@ -1,7 +1,7 @@
 # Documentação Writer Bots On The Go
 ### Índice
 - [Objetivo](#objetivo)<br/>
-- [Lógicas](#lógicas)<br/>
+- [Lógicas](#-lógicas)<br/>
 - [1 - Lógica Contém](#1-lógica-contém)<br/>
 - [2 - Lógica Contém Inteligente](#2-lógica-contém-inteligente)</a><br/>
 - [3 - Lógica Valor de Parâmetro](#3-lógica-valor-de-parâmetro)</a><br/>
@@ -13,7 +13,7 @@
 ---
 <a id="objetivo"></a>
 ## Objetivo
-Esse documento tem como objetivo descrever as possíveis lógicas em uma pesquisa On The Go
+Esse documento tem como objetivo descrever as possíveis lógicas em uma pesquisa On The Go.<br/><br/>
 ## Lógicas
 ---
 ### 1-Lógica Contém
@@ -28,7 +28,7 @@ No banco de dados esta lógica é escrita da seguinte forma:
 
 Onde <b>d666</b> refere-se ao uid da pergunta e <b>op1</b> refere-se a opção para qual se criou a lógica. 
 
-Tipos de perguntas compatívies: <b>Única e Múltipla Escolha</b>
+Tipos de perguntas compatívies: <b>Única e Múltipla Escolha</b>.<br/><br/>
 
 ---
 
@@ -45,7 +45,7 @@ No banco de dados esta lógica é escrita da seguinte forma:
 
 Onde <b>95n1</b> refere-se ao uid da pergunta e [MarcaX] refere-se a opção para qual se criou a lógica.
 
-Tipos de perguntas compatívies: <b>Única e Múltipla Escolha</b>
+Tipos de perguntas compatívies: <b>Única e Múltipla Escolha</b>.<br/><br/>
 
 ---
 
@@ -60,7 +60,9 @@ No banco de dados esta lógica é escrita da seguinte forma:
 
 ```/logic/ if has @param@disparador@offer@```
 
-Compatível com qualquer parâmetro e valor.
+Compatível com qualquer parâmetro e valor.<br/><br/>
+
+---
 
 ### 4-Lógica Peso
 
@@ -78,6 +80,8 @@ No banco de dados esta lógica é escrita da seguinte forma:
 - Menor que ```/logic/ if sum(@95n1@) < 5```
 - Maior ou igual ```/logic/ if sum(@95n1@) >= 5```
 - Menor ou igual ```/logic/ if sum(@95n1@) <= 5```
+  <br/><br/>
+---
 
 ### 5-Lógica Contém Opções Selecionadas nos Itens
 
@@ -95,7 +99,9 @@ No banco de dados esta lógica é escrita da seguinte forma:
 
 ```/code/ if @aio1@it2@ containsInMatriz [op1,op2,op3,op4,op5,op6]```
 
-Onde <b>aio1</b> refere-se ao uid da pergunta e <b>it2</b> refere-se ao(s) item(ns).
+Onde <b>aio1</b> refere-se ao uid da pergunta e <b>it2</b> refere-se ao(s) item(ns).<br/><br/>
+
+---
 
 ### 6-Lógica Somar Pesos
 
@@ -109,7 +115,9 @@ No banco de dados esta lógica é escrita da seguinte forma:
 
 ```/code/ if sumMatrizWeight(8vn1) >= 90```
 
-Onde <b>8vn1</b> refere-se ao uid da matriz.
+Onde <b>8vn1</b> refere-se ao uid da matriz.<br/><br/>
+
+---
 
 ### 7-Lógica Top X Contém Texto
 
@@ -123,7 +131,9 @@ No banco de dados esta lógica é escrita da seguinte forma:
 
 ```/code/ if top2contains @m9h3@Carrefour Express@```
 
-Onde 2 é a quantidade de itens que a lógica irá procurar o texto e <b>m9h3</b> refere-se ao uid da múltipla escolha.
+Onde 2 é a quantidade de itens que a lógica irá procurar o texto e <b>m9h3</b> refere-se ao uid da múltipla escolha.<br/><br/>
+
+---
 
 ## Painéis
 A plataforma On The Go pode se conectar a diversos paineis diferentes, mas cada um deles possui algumas especificidades. 
