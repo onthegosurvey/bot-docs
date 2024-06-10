@@ -30,7 +30,7 @@ Tipos de perguntas compatívies: <b>Única e Múltipla Escolha</b>
 A <b>Lógica Contém Inteligente</b> verifica se na P2 (Pergunta 2), o texto MarcaX foi selecionado.<br/>
 Caso seja verdade, o usuário é direcionado para o índice 5, caso contrário o usuário será direcionado para o índice 6.<br/>
 
-![alt text](https://github.com/onthegosurvey/bot-docs/blob/main/images/img5.png?raw=true)
+![alt text](https://github.com/onthegosurvey/bot-docs/blob/main/images/img4.png?raw=true)
 
 No banco de dados esta lógica é escrita da seguinte forma:
 
