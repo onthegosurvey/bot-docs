@@ -140,7 +140,15 @@ Onde 2 é a quantidade de itens que a lógica irá procurar o texto e <b>m9h3</b
 
 ## Lógicas nas Opções
 Em alguns casos é necessário apresentar ou esconder itens de acordo com o que foi selecionado em uma matriz anterior.
+A figura abaixo é possível ver uma lista de marcas de carne bovina e uma escala customizada. 
 
+![alt text](https://github.com/onthegosurvey/bot-docs/blob/main/images/img10.png?raw=true)
+
+Na próxima pergunta vamos apresentar(show) ou esconder(hide) apenas as marcas que selecionaram as opçòes 4, 5 ou 6. 
+
+![alt text](https://github.com/onthegosurvey/bot-docs/blob/main/images/img11.png?raw=true)
+
+Tipo de pergunta compatível: <b>Matriz, Múltipla Escolha ou Resposta Única</b>.<br/><br/>
 
 ---
 
