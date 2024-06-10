@@ -8,6 +8,7 @@
 - [4 - Lógica Peso](#4-lógica-peso)</a><br/>
 - [5 - Lógica Contém Opções Selecionadas nos Itens](#5-lógica-contém-opções-selecionadas-nos-itens)
 - [6 - Lógica Somar Pesos](#6-lógica-somar-pesos)
+- [7 - Lógica Top X Contém Texto](#7-lógica-top-x-contém)
 - [Painéis](#painéis)<br/>
 ---
 <a id="objetivo"></a>
@@ -110,19 +111,19 @@ No banco de dados esta lógica é escrita da seguinte forma:
 
 Onde <b>8vn1</b> refere-se ao uid da matriz.
 
-### 7-Lógica Top X Contém
+### 7-Lógica Top X Contém Texto
 
-A <b>Lógica Top X Contém</b> verifica se entre as Top (3) contém o texto a seguir.<br/>
+A <b>Lógica Top X Contém</b> verifica se entre as Top (2) de uma múltipla contém o texto a seguir.<br/>
 
 ![alt text](https://github.com/onthegosurvey/bot-docs/blob/main/images/img9.png?raw=true)
 
-Tipo de pergunta compatível: <b>Matriz</b>
+Tipo de pergunta compatível: <b>Múltipla Escolha</b>
 
 No banco de dados esta lógica é escrita da seguinte forma:
 
-```/code/ if sumMatrizWeight(8vn1) >= 90```
+```/code/ if top2contains @m9h3@Carrefour Express@```
 
-Onde <b>8vn1</b> refere-se ao uid da matriz.
+Onde 2 é a quantidade de itens que a lógica irá procurar o texto e <b>m9h3</b> refere-se ao uid da múltipla escolha.
 
 ## Painéis
 A plataforma On The Go pode se conectar a diversos paineis diferentes, mas cada um deles possui algumas especificidades. 
