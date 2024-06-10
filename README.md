@@ -1,8 +1,14 @@
 # Documentação Writer Bots On The Go
+### Índice
+<a href="#logicacontem">1- Objetivo</a><br/>
+<a href="#logicas">1.1 - Lógicas</a><br/>
+<a href="#logicacontem">1.1.1 - Lógica Contém</a><br/>
+---
+<a id="objetivo"></a>
 ## 1- Objetivo
 Esse documento tem como objetivo descrever as possíveis lógicas em um bot On The Go
+<a id="logicas"></a>
 ### 1.1 - Lógicas
-<a href="#logicacontem">1.1.1 - Lógica Contém</a><br/>
 <a id="logicacontem"></a>
 #### 1.1.1 - Lógica Contém
 A <b>Lógica Contém</b> verifica se na P25 (Pergunta 25), o item 1 foi selecionado.<br/> 
