@@ -8,7 +8,7 @@
 - [4 - Lógica Peso](#4-lógica-peso)</a><br/>
 - [5 - Lógica Contém Opções Selecionadas nos Itens](#5-lógica-contém-opções-selecionadas-nos-itens)
 - [6 - Lógica Somar Pesos](#6-lógica-somar-pesos)
-- [7 - Lógica Top X Contém Texto](#7-lógica-top-x-contém)
+- [7 - Lógica Top X Contém Texto](#7-lógica-top-x-contém-texto)
 - [Painéis](#painéis)<br/>
 ---
 <a id="objetivo"></a>
