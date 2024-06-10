@@ -7,6 +7,7 @@
 - [3 - Lógica Valor de Parâmetro](#3-lógica-valor-de-parâmetro)</a><br/>
 - [4 - Lógica Peso](#4-lógica-peso)</a><br/>
 - [5 - Lógica Contém Opções Selecionadas nos Itens](#5-lógica-contém-opções-selecionadas-nos-itens)
+- [6 - Lógica Somar Pesos](#6-lógica-somar-pesos)
 - [Painéis](#painéis)<br/>
 ---
 <a id="objetivo"></a>
