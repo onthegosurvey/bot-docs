@@ -1,7 +1,7 @@
 # Documentação Writer Bots On The Go
 ### Índice
 - [Objetivo](#objetivo)<br/>
-- [Lógicas](#-lógicas)<br/>
+- [Lógicas](#lógicas)<br/>
 - [1 - Lógica Contém](#1-lógica-contém)<br/>
 - [2 - Lógica Contém Inteligente](#2-lógica-contém-inteligente)</a><br/>
 - [3 - Lógica Valor de Parâmetro](#3-lógica-valor-de-parâmetro)</a><br/>
@@ -14,6 +14,8 @@
 <a id="objetivo"></a>
 ## Objetivo
 Esse documento tem como objetivo descrever as possíveis lógicas em uma pesquisa On The Go.<br/><br/>
+
+
 ## Lógicas
 
 ### 1-Lógica Contém
