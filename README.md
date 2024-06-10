@@ -5,6 +5,7 @@
 - [1 - Lógica Contém](#1-lógica-contém)<br/>
 - [2 - Lógica Contém Inteligente](#2-lógica-contém-inteligente)</a><br/>
 - [3 - Lógica Valor de Parâmetro](#3-lógica-valor-de-parâmetro)</a><br/>
+- [4 - Lógica Peso](#4-lógica-peso)</a><br/>
 - [Painéis](#painéis)<br/>
 ---
 <a id="objetivo"></a>
@@ -58,9 +59,24 @@ No banco de dados esta lógica é escrita da seguinte forma:
 
 ```/logic/ if has @param@disparador@offer@```
 
-Compatível com qualquer parâmetro e valor. 
+Compatível com qualquer parâmetro e valor.
 
+### 4-Lógica Peso
 
+A <b>Lógica Peso</b> verifica se o valor somado dos itens selecionados na P2 (Pergunta 2) é Exatamente, Maior que, Menor que, Maior ou igual, Menor ou igual ao valor digitado no campo a frente, nesta imagem abaixo por exemplo o valor 5.<br/>
+Caso seja verdade, o usuário é direcionado para o índice 5, caso contrário o usuário será direcionado para o índice 6.<br/>
+
+![alt text](https://github.com/onthegosurvey/bot-docs/blob/main/images/img5.png?raw=true)
+
+Tipos de perguntas compatívies: <b>Única e Múltipla Escolha</b>
+
+No banco de dados esta lógica é escrita da seguinte forma:
+
+- Exatamente: ```/logic/ if sum(@95n1@) == 5```
+- Maior que ```/logic/ if sum(@95n1@) > 5```
+- Menor que ```/logic/ if sum(@95n1@) < 5```
+- Maior ou igual ```/logic/ if sum(@95n1@) >= 5```
+- Menor ou igual ```/logic/ if sum(@95n1@) <= 5```
 
 ## Painéis
 A plataforma On The Go pode se conectar a diversos paineis diferentes, mas cada um deles possui algumas especificidades. 
