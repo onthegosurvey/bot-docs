@@ -5,7 +5,7 @@
 - [1 - Lógica Contém](#1-lógica-contém)<br/>
 - [2 - Lógica Contém Inteligente](#2-lógica-contém-inteligente)</a><br/>
 - [3 - Lógica Valor de Parâmetro](#3-lógica-valor-de-parâmetro)</a><br/>
-- [Paineis](#paineis)<br/>
+- [Painéis](#painéis)<br/>
 ---
 <a id="objetivo"></a>
 ## Objetivo
@@ -60,5 +60,15 @@ No banco de dados esta lógica é escrita da seguinte forma:
 
 Compatível com qualquer parâmetro e valor. 
 
-## Paineis
-A plataforma On The Go pode se conectar a diversos paineis diferentes, mas cada um deles possui suas especificidades
+
+
+## Painéis
+A plataforma On The Go pode se conectar a diversos paineis diferentes, mas cada um deles possui algumas especificidades. 
+Observações importantes para configurar os links de painéis:<br/>
+
+- Lembrar de colocar o %s no parâmetro do painel que deve receber o seu Id. Conforme imagem abaixo.
+- Caso a pesquisa possua mais de um painel, será necessário criar uma [Lógica Valor de Parâmetro](#3-lógica-valor-de-parâmetro) para identificar de qual painel o respondente veio
+
+![alt text](https://github.com/onthegosurvey/bot-docs/blob/main/images/img3.png?raw=true)
+
+
