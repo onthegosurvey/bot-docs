@@ -20,7 +20,7 @@ Esse documento tem como objetivo descrever as possíveis lógicas em uma pesquis
 ## Lógicas
 
 ### 1-Lógica Contém
-A <b>Lógica Contém</b> verifica se na P25 (Pergunta 25), o item 1 foi selecionado.<br/> 
+A <b>Lógica Contém</b> verifica se na P25 (Pergunta 25), a opção 1 foi selecionada.<br/> 
 Caso seja verdade, o usuário é direcionado para o índice 35, caso contrário o usuário será direcionado para o índice 38.<br/>
 
 ![alt text](https://github.com/onthegosurvey/bot-docs/blob/main/images/img1.png?raw=true)
