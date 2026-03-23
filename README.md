@@ -102,7 +102,9 @@ No banco de dados esta lógica é escrita da seguinte forma:
 
 ```/code/ if @aio1@it2@ containsInMatriz [op1,op2,op3,op4,op5,op6]```
 
-Onde <b>aio1</b> refere-se ao uid da pergunta e <b>it2</b> refere-se ao(s) item(ns).<br/><br/>
+Onde <b>aio1</b> refere-se ao uid da pergunta e <b>it2</b> refere-se ao(s) item(ns).<br/>
+
+Caso a lógica contenha mais de um item, o primeiro que tiver uma das opções já é considerado condição válida.<br/><br/>
 
 
 
