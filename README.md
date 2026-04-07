@@ -9,6 +9,8 @@
 - [5 - Lógica Contém Opções Selecionadas nos Itens](#5-lógica-contém-opções-selecionadas-nos-itens)
 - [6 - Lógica Somar Pesos](#6-lógica-somar-pesos)
 - [7 - Lógica Top X Contém Texto](#7-lógica-top-x-contém-texto)
+- [8 - Lógica isUniqueAnswer](#8-lógica-isUniqueAnswer)
+- [9 - Lógica psmValue](#9-lógica-psmValue) 
 - [Lógicas nas Opções](#lógicas-nas-opções)<br/>
 - [Painéis](#painéis)<br/>
 ---
@@ -107,7 +109,6 @@ Onde <b>aio1</b> refere-se ao uid da pergunta e <b>it2</b> refere-se ao(s) item(
 Caso a lógica contenha mais de um item, o primeiro que tiver uma das opções já é considerado condição válida.<br/><br/>
 
 
-
 ### 6-Lógica Somar Pesos
 
 A <b>Lógica Somar Pesos</b> soma os pesos das opções dos itens selecionados em uma matriz<br/>
@@ -123,7 +124,6 @@ No banco de dados esta lógica é escrita da seguinte forma:
 Onde <b>8vn1</b> refere-se ao uid da matriz.<br/><br/>
 
 
-
 ### 7-Lógica Top X Contém Texto
 
 A <b>Lógica Top X Contém</b> verifica se entre as Top (2) de uma múltipla contém o texto a seguir.<br/>
@@ -137,6 +137,41 @@ No banco de dados esta lógica é escrita da seguinte forma:
 ```/code/ if top2contains @m9h3@Carrefour Express@```
 
 Onde 2 é a quantidade de itens que a lógica irá procurar o texto e <b>m9h3</b> refere-se ao uid da múltipla escolha.<br/><br/>
+
+---
+
+### 8-Lógica isUniqueAnswer
+
+A <b>Lógica isUniqueAnswerContém</b> verifica se na pergunta aberta a qual está se referindo já existe um respondente complete nessa mesma pesquisa<br/>
+
+Tipo de pergunta compatível: <b>Pergunta Aberta</b>
+
+No banco de dados esta lógica é escrita da seguinte forma:
+
+```/code/ if isUniqueAnswer(@hw8f@)```
+
+A lógica irá procurar o texto na pergunta com uid <b>hw8f</b> e verificar se já existe algum respondente complete nessa pesquisa<br/><br/>
+
+---
+
+### 9-Lógica psmValue
+
+A <b>Lógica psmValue</b> verifica se um vallr é maior do que o outro para ser utilizado em uma pesquisa com a metodologia PSM<br/>
+
+Tipo de pergunta compatível: <b>Pergunta Aberta</b>
+
+No banco de dados esta lógica é escrita da seguinte forma:
+
+```/code/ if psmvalue(@g7f5@ > @e7f5@)```
+
+A lógica irá verificar se a resposta dada na pergunta uid <b>g7f5</b> é maior do que a resposta da pergunta uid <b>e7f5</b>. Lembrando que a metodologia PSM precisa fazer três comparações da seguinte forma:<br/><br/>
+
+Barato: A que preço você consideraria o produto uma "pechincha"?<br/>
+Muito barato: A que preço você duvidaria da qualidade e não compraria?<br/>
+Caro: A que preço o produto começa a parecer caro?<br/>
+Muito caro: A que preço o produto é proibitivo e você não compraria?<br/>
+
+<br/><br/>
 
 ---
 
