@@ -181,7 +181,7 @@ A figura abaixo é possível ver uma lista de marcas de carne bovina e uma escal
 
 ![alt text](https://github.com/onthegosurvey/bot-docs/blob/main/images/img10.png?raw=true)
 
-Na próxima pergunta vamos apresentar(show) ou esconder(hide) apenas as marcas que selecionaram as opçòes 4, 5 ou 6. 
+Na próxima pergunta vamos apresentar(show) ou esconder(hide) apenas as marcas que selecionaram as opções 4, 5 ou 6. 
 
 ![alt text](https://github.com/onthegosurvey/bot-docs/blob/main/images/img11.png?raw=true)
 
